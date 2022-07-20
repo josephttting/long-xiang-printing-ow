@@ -1,0 +1,18 @@
+<div class="content-holder">
+    <mat-card>
+        <mat-card-title>聯絡資訊</mat-card-title>
+        <mat-grid-list cols="{{breakpoint}}" rowHeight="{{infoRowHeight}}" (window:resize)="onResize($event)">
+            <mat-grid-tile>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.1020626003487!2d120.5557692149813!3d23.74373958459263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec9968b7642a7%3A0x8b0abfa9a87887a1!2z6b6N57-U5Y2w5Yi35bug!5e0!3m2!1szh-TW!2stw!4v1657751551662!5m2!1szh-TW!2stw" width="100%" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-list class="full-width-list">
+                    <mat-list-item><mat-icon class="info-icon">location_on</mat-icon>雲林縣斗六市竹圍路75-3號(竹圍工業區旁)</mat-list-item>
+                    <mat-list-item><mat-icon class="info-icon">phone</mat-icon>05-5512202</mat-list-item>
+                    <mat-list-item><mat-icon class="info-icon">print</mat-icon>05-5512841</mat-list-item>
+                    <mat-list-item><mat-icon class="info-icon">email</mat-icon>pma6.pma6@msa.hinet.net</mat-list-item>
+                </mat-list>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </mat-card>
+</div>
