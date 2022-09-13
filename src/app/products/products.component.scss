@@ -1,0 +1,23 @@
+.content-holder {
+  padding: 2vh 1vw;
+}
+
+.product-list {
+  border: none;
+  box-shadow: none;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 961) {
+ .product-list {
+    border: none;
+    box-shadow: none;
+    color: #000000;
+    background-color: #f2f2f2;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 960) {
+    
+}
